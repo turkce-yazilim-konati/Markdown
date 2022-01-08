@@ -225,11 +225,11 @@ Burası örnek dipnotu[^1].
 
 Birden çok satırda dipnotu kollunmak[^2].  
 
-Adlandırılmış dipnotu kullanmak[^adlı].
+Adlandırılmış dipnotu kullanmak[^ad].
 
 [^1]: Benim kaynağım
 [^2]: Birden çok satırda dipnot kullanabiliyoruz.
-[^adlı]:
+[^ad]:
     Her ne kadar adlasak bile yazıların yanında sayılar ile işlemeye devam edecektir.
     
 ---
