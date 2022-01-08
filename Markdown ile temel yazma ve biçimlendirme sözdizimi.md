@@ -68,6 +68,24 @@ X<sup>2</sup>
 
 H<sub>2</sub>O
 
+---
+
+# Blok Alıntılar
+
+## Örnek:
+```markdown
+> Bir blok alıntı örneği.
+>
+>> Alıntı içine alıntı örneği
+```
+## Çıktı Sonucu:
+
+> Bir blok alıntı örneği.
+>
+>> Alıntı içine alıntı örneği
+
+---
+
 # Alıntı Kod Ekleme
 
 Bilgisayarda çalıştırdığımız kodları başkalarının okuyabilmesi için onlara özgü bir alan içinde paylaşmamız gerekir. Bunu üç tane tırnak (`) ya da iki tane tırnak (`) arasına alarak yapabilirsiniz. HTML'den bir örnek verelim. 
