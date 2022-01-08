@@ -114,3 +114,122 @@ Türkçe Yazılım Konatı ağbetine varmak için [buraya tıklayınız](https:/
 
 ---
 
+# Yuvalı Dizme Oluşturma
+
+Yer yer dizmeleri yuvalı olarak oluşturmak isteyebilirsiniz. Yuvalamak istediğiniz maddeyi biraz içeri sokmanız yeterli. Üstteki maddenin ilk harfi ile çakışması önemlidir.
+
+## Örnek
+```markdown
+
+- İlk dizme maddesi
+  - İkinci dizme maddesi
+
+* Yıldızlı ilk dizme maddesi
+  * Yıldızlı ikinci dizme maddesi
+```
+
+## Çıktı Sonucu:
+
+- İlk dizme maddesi
+  - İkinci dizme maddesi
+
+* Yıldızlı ilk dizme maddesi
+  * Yıldızlı ikinci dizme maddesi
+
+---
+
+# Görev Dizmesi
+
+Görev dizmelerinde kullanabileceğimiz ufak iki im vardır. ```[ ]``` bitmemiş görevler içindir. ```[X]``` bitmiş görevler içindir
+
+## Örnek
+```markdown
+
+- [ ] Başlıklar oluşturulacak
+  - [X] Ana başlıklar oluşturulacak
+  - [ ] Alt başlıklar oluşturulacak
+
+```
+
+## Çıktı Sonucu:
+- [ ] Başlıklar oluşturulacak
+  - [X] Ana başlıklar oluşturulacak
+  - [ ] Alt başlıklar oluşturulacak
+
+---
+
+# Tablo Oluşturmak
+
+Ortalı yazı yazmak için ```:---:```
+Sağlı yazı yazmak için ```----:```
+Sollu yazı yazmak için ```:---```
+
+## Örnek:
+```markdown
+| Başlık 1 | Başlık 2 |
+| -------- | -------- |
+| İçerik 1 | İçerik 2 |
+```
+
+## Çıktı Sonucu:
+| Başlık 1 | Başlık 2 |
+| -------- | -------- |
+| İçerik 1 | İçerik 2 |
+
+---
+
+# Kaynaktan Tanımlı Link/Örk Oluşturmak
+
+Yazı içerisinde birçok yerde aynı örkü kullanmak zorunda kaldığınızı düşleyin. Burada uzun uzadıya her yere ```[link/örk](upuzun_bir_örk_yolu)``` yazmak yorucu olabilir. Okuma güçlüğü çıkarabilir. Çözümü aşığıdaki örnekte. 
+
+## Örnek:
+
+```markdown
+
+[Türkçe Yazılım Konatı] daha yeni kurulmuş idi. [Türkçe Yazılım Konatı]'nda ilk olarak [Karamel Programlama Dili]'ni yapmaya başlamıştık. [Karamel Programlama Dili]'nin ilk adı başka idi. Ancak şimdi [Karamel Programlama Dili] olarak söylüyoruz. [Türkçe Yazılım Konatı]'na katılanlar gün geçtikçe artar oldu. Biz de işlerimizi dallandırdık. [Türkçe Yazılım Konatı]'na katılmak isterseniz bekliyoruz.
+
+[Türkçe Yazılım Konatı]: <https://turkce-yazilim-konati.github.io>
+[Karamel Programlama Dili]: <https://turkce-yazilim-konati.github.io/karamel>
+
+```
+
+[Türkçe Yazılım Konatı] daha yeni kurulmuş idi. [Türkçe Yazılım Konatı]'nda ilk olarak [Karamel Programlama Dili]'ni yapmaya başlamıştık. [Karamel Programlama Dili]'nin ilk adı başka idi. Ancak şimdi [Karamel Programlama Dili] olarak söylüyoruz. [Türkçe Yazılım Konatı]'na katılanlar gün geçtikçe artar oldu. Biz de işlerimizi dallandırdık. [Türkçe Yazılım Konatı]'na katılmak isterseniz bekliyoruz.
+
+[Türkçe Yazılım Konatı]: <https://turkce-yazilim-konati.github.io>
+[Karamel Programlama Dili]: <https://turkce-yazilim-konati.github.io/karamel>
+
+---
+
+# Dipnotlar
+
+Dipnotları markdown içinde dilediğiniz yerde yazabilirsiniz. Ancak çıktı sonucunda betin/sayfanın en dibinde görüntülenecektir.
+
+## Örnek
+```markdown
+
+Burası örnek dipnotu[^1].
+
+Birden çok satırda dipnotu kollunmak[^2].  
+
+Adlandırılmış dipnotu kullanmak[^adlı].
+
+[^1]: Benim kaynağım
+[^2]: Birden çok satırda dipnot kullanabiliyoruz.
+[^adlı]:
+    Her ne kadar adlasak bile yazıların yanında sayılar ile işlemeye devam edecektir.
+```
+
+## Çıktı Sonuçları:
+
+Burası örnek dipnotu[^1].
+
+Birden çok satırda dipnotu kollunmak[^2].  
+
+Adlandırılmış dipnotu kullanmak[^adlı].
+
+[^1]: Benim kaynağım
+[^2]: Birden çok satırda dipnot kullanabiliyoruz.
+[^adlı]:
+    Her ne kadar adlasak bile yazıların yanında sayılar ile işlemeye devam edecektir.
+    
+---
