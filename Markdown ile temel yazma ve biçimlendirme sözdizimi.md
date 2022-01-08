@@ -51,6 +51,23 @@ _Eğik metin yazmak için_
 
 ---
 
+# Üstlük Yazılar - Altlık Yazılar
+
+# Örnek:
+```markdown
+
+X<sup>2</sup>
+
+H<sub>2</sub>O
+
+```
+
+## Çıktı Sonucu:
+
+X<sup>2</sup>
+
+H<sub>2</sub>O
+
 # Alıntı Kod Ekleme
 
 Bilgisayarda çalıştırdığımız kodları başkalarının okuyabilmesi için onlara özgü bir alan içinde paylaşmamız gerekir. Bunu üç tane tırnak (`) ya da iki tane tırnak (`) arasına alarak yapabilirsiniz. HTML'den bir örnek verelim. 
@@ -285,4 +302,6 @@ Size her şeyi ayrıntıları ile anlatmak isterim:
 ```
 
 </details>
+
+---
 
