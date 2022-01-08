@@ -233,3 +233,56 @@ Adlandırılmış dipnotu kullanmak[^ad].
     Her ne kadar adlasak bile yazıların yanında sayılar ile işlemeye devam edecektir.
     
 ---
+
+# Ayrıntı Yazıları Oluşturmak
+
+Yapmanız gereken yalnızca ```html <details></details>``` arasına gizlemek istediğiniz şeyleri yazmak. Varsayılan olarak açık biçimde sunmak istiyorsanız bu durumda şöyle yazmanız yeterli: ```html <details open></details>```
+
+# Örnek:
+```markdown
+Size her şeyi ayrıntıları ile anlatmak isterim:
+
+<details><summary>Ayrıntıları görmek için tıkla.</summary>
+  
+#### Buraya her şeyi gizleyebiliriz!
+
+    ```ruby
+      puts "Selâm Dünya"
+    ```
+</p>
+</details>
+
+<details open><summary>Gördüklerini gizlemek için tıkla.</summary>
+  
+#### Burada görünen her şeyi gizleyebiliriz!
+
+    ```html
+      <b>Ben bir kalın yazı yazdım</b>
+    ```
+</details>
+
+```
+
+## Çıktı Sonucu:
+Size her şeyi ayrıntıları ile anlatmak isterim:
+
+<details><summary>Ayrıntıları görmek için tıkla.</summary>
+
+#### Buraya her şeyi gizleyebiliriz!
+
+```ruby
+  puts "Selâm Dünya"
+```
+
+</details>
+
+<details open><summary>Gördüklerini gizlemek için tıkla.</summary>
+  
+#### Burada görünen her şeyi gizleyebiliriz!
+
+```html
+  <b>Ben bir kalın yazı yazdım</b>
+```
+
+</details>
+
